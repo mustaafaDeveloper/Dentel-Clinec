@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+body,html{
+  direction: rtl;
+}
 
 @font-face {
   font-family: Vazirmatn-Black;
