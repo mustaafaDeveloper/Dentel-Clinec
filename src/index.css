@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: Vazirmatn-Black;
+  src: url(../src/assets/fontes/Vazirmatn-Black.ttf);
+}
+
+@font-face {
+  font-family: Vazirmatn-Bold;
+  src: url(../src/assets/fontes/Vazirmatn-Bold.ttf);
+}
+
+@font-face {
+  font-family: Vazirmatn-ExtraBold;
+  src: url(../src/assets/fontes/Vazirmatn-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Vazirmatn-ExtraLight;
+  src: url(../src/assets/fontes/Vazirmatn-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: Vazirmatn-Light;
+  src: url(../src/assets/fontes/Vazirmatn-Light.ttf);
+}
+
+@font-face {
+  font-family: Vazirmatn-Medium;
+  src: url(../src/assets/fontes/Vazirmatn-Medium.ttf);
+}
+
+@font-face {
+  font-family: Vazirmatn-Regular;
+  src: url(../src/assets/fontes/Vazirmatn-Regular.ttf);
+}
+
+@font-face {
+  font-family: Vazirmatn-SemiBold;
+  src: url(../src/assets/fontes/Vazirmatn-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Vazirmatn-Thin;
+  src: url(../src/assets/fontes/Vazirmatn-Thin.ttf);
+}
+
+@theme{
+  /* =======================font====================== */
+  --font-Vazirmatn-Black:Vazirmatn-Black;
+  --font-Vazirmatn-Bold:Vazirmatn-Bold;
+  --font-Vazirmatn-ExtraBold:Vazirmatn-ExtraBold;
+  --font-Vazirmatn-ExtraLight:Vazirmatn-ExtraLight;
+  --font-Vazirmatn-Light:Vazirmatn-Light;
+  --font-Vazirmatn-Medium:Vazirmatn-Medium;
+  --font-Vazirmatn-Regular:Vazirmatn-Regular;
+  --font-Vazirmatn-SemiBold:Vazirmatn-SemiBold;
+  --font-Vazirmatn-Thin:Vazirmatn-Thin;
+
+  /* ============ primary colors ============== */
+  --color-Primary-Blue:	#2563EB;	/* رنگ اصلی، دکمه‌های اصلی، لینک‌ها */
+  --color-Secondary-Blue:	#3B82F6;	/*دکمه‌های ثانویه، نمودارها */
+  --color-Light-Blue:	#DBEAFE;	/* پس‌زمینه آیکون‌ها و بخش‌های انتخاب‌شده */
+  --color-Dark-Navy:	#1E293B;	/* Sidebar و بخش‌های تیره */ 
+  --color-Background:	#F8FAFC;	/* پس‌زمینه عمومی صفحات */
+  --color-White:	#FFFFFF;	/* کارت‌ها، جدول‌ها و فرم‌ها */
+
+  /* ======================Status Colors================== */
+  --color-Success:	#10B981;	/*موفقیت، پرداخت کامل، فعال*/
+  --color-SuccessLight:	#DCFCE7;	/*پس‌زمینه وضعیت موفق*/
+  --color-Info:	#3B82F6;	/*اطلاعات، در حال انجام*/
+  --color-InfoLight:	#DBEAFE;	/*پس‌زمینه اطلاعات*/
+  --color-Warning:	#F59E0B	; /*هشدار، در انتظار*/
+  --color-Warning: Light	#FEF3C7	; /*پس‌زمینه هشدار*/
+  --color-Danger:	#EF4444	; /*خطا، حذف، لغو*/
+  --color-DangerLight:	#FEE2E2	; /*پس‌زمینه خطا*/
+  --color-Secondary:	#64748B	; /*غیرفعال، وضعیت خنثی*/
+
+  /* =====================Additional Colors==================== */
+  --color-Purple:	#8B5CF6;	/*آمار و نمودارهای مکمل*/
+  --color-Indigo	:#6366F1;	/*اطلاعات تخصصی*/
+  --color-Cyan	:#06B6D4;	/*اطلاعات جانبی*/
+  --color-Teal:	#14B8A6	; /*شاخص‌های مالی و درمانی*/
+  --color-DarkText	:#0F172A;	/*عنوان‌ها و متن اصلی*/
+  --color-SecondaryText	:#475569;	/*متن توضیحات*/
+  --color-MutedText	:#94A3B8; /*متن کم‌رنگ و Placeholder*/
+
+  /* =======================Gray Scale================== */
+  --color-Gray-50	: #F8FAFC;	/*پس‌زمینه صفحه*/
+  --color-Gray-100: #F1F5F9; /*پس‌زمینه بخش‌ها*/
+  --color-Gray-200: #E2E8F0	Border; /*و Divider*/
+  --color-Gray-300: #CBD5E1	Border; /*قوی‌تر*/
+  --color-Gray-400: #94A3B8; /*متن کم‌رنگ*/
+  --color-Gray-500: #64748B; /*متن ثانویه*/
+  --color-Gray-600: #475569; /*متن عادی*/
+  --color-Gray-700: #334155; /*عنوان فرعی*/
+  --color-Gray-800: #1E293B; /*متن و Sidebar*/
+  --color-Gray-900: #0F172A; /*عنوان اصلی*/
+}
+
